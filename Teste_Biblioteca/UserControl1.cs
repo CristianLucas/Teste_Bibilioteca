@@ -16,5 +16,14 @@ namespace Teste_Biblioteca
         {
             InitializeComponent();
         }
+        private void ola()
+        {
+           
+        }
+        string message = ("Madisson Pequeno");
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(message);
+        }
     }
 }
